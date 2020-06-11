@@ -103,9 +103,9 @@ void main(void)
     lcdInitinal();
     delay_ms(2);
     lcdMsg("余额：----",4,0);
-    lcdMsg("卡号：----",2,0);
-    lcdMsg("消费：----",3,0);
-    lcdMsg("状态：----",1,0);
+    lcdMsg("2班：----",2,0);
+    lcdMsg("医学信息工程：----",3,0);
+    lcdMsg("周志康：----",1,0);
 
     init_all();
 
