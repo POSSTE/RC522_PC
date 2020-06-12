@@ -97,15 +97,15 @@ void main(void)
     lcdInitinal();
     lcdMsg("浙江中医药大学",1,0);
 	lcdMsg("嵌入式课程",2,0);
-	lcdMsg("XXX",3,0);
+	lcdMsg("周志康",3,0);
     lcdMsg("www.zcmu.edu.cn",4,0);
     delay_ms(2000);
     lcdInitinal();
     delay_ms(2);
     lcdMsg("余额：----",4,0);
-    lcdMsg("2班：----",2,0);
-    lcdMsg("医学信息工程：----",3,0);
-    lcdMsg("周志康：----",1,0);
+    lcdMsg("卡号：----",2,0);
+    lcdMsg("消费：----",3,0);
+    lcdMsg("状态：----",1,0);
 
     init_all();
 
